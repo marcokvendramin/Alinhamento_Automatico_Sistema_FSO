@@ -63,10 +63,12 @@ POR  <img
 
 ---
 
-Escopo deste repositório
+# <div align="center">Escopo deste repositório</div>
 
+<p align="justify">
 Este repositório contém especificamente o sistema de alinhamento automático do enlace óptico desenvolvido para o projeto FSO, incluindo controle dos motores, leitura dos sensores, calibração, busca do feixe de laser e posicionamento dos módulos transmissor e receptor.
 
+<p align="justify">
 Embora o sistema físico completo tenha sido desenvolvido em colaboração por uma equipe de três integrantes — abrangendo comunicação óptica, modelagem mecânica 3D e integração de hardware —, este código-fonte é dedicado exclusivamente ao pipeline de alinhamento automático, projetado e implementado por mim (Marco Vendramin).
 
 ENG   <img
@@ -123,11 +125,16 @@ ENG   <img
 </table>
 
 ---
-Repository Scope
 
+# <div align="center">Repository Scope</div>
+
+<p align="justify">
 This repository specifically contains the automatic optical-link alignment system developed for the FSO project, including motor control, sensor readings, calibration, laser-beam search, and positioning of the transmitter and receiver modules.
+</p>
 
+<p align="justify">
 Although the complete physical system was developed collaboratively by a three-member team—covering optical communication, 3D mechanical modeling, and hardware integration—this source code is dedicated exclusively to the automatic alignment pipeline, designed and implemented by me (Marco Vendramin).
+</p>
 
 ## 🎥 Practical demonstration
 
