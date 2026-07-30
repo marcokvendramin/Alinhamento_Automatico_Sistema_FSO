@@ -1,4 +1,8 @@
-🇧🇷
+<img
+    src="https://static.todamateria.com.br/upload/ba/nd/bandeira-do-brasil-og.jpg"
+    alt="Bandeira do Brasil"
+    width="35"
+/>
 
 # <div align="center">Arquitetura de Comunicação Óptica via Laser</div>
 
