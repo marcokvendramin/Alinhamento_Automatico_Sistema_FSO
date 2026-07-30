@@ -63,8 +63,6 @@ POR  <img
 
 ---
 
-# <div align="center">Escopo deste repositório</div>
-
 ## Escopo deste repositório
 
 <p align="justify">
@@ -134,7 +132,7 @@ ENG   <img
 
 ---
 
-# <div align="center">Repository Scope</div>
+## Repository Scope
 
 <p align="justify">
 &nbsp;&nbsp;&nbsp;&nbsp;This repository specifically contains the <strong>automatic optical-link alignment system</strong> developed for the FSO project, including motor control, sensor readings, environmental calibration, laser-beam search, and precise positioning of the transmitter and receiver modules.
