@@ -101,8 +101,6 @@ POR  <img
 
 ### [▶ Assistir ao vídeo no YouTube](https://www.youtube.com/watch?v=WR5zdiHbGd0)
 
----
-
 ---------------------------------------------------------------------------------------------
 
 ENG   <img
