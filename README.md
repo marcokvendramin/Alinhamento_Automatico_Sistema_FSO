@@ -22,28 +22,33 @@ POR  <img
 &nbsp;&nbsp;&nbsp;&nbsp;O enlace óptico alcançou <strong>37,4 metros sem perda de pacotes</strong>. Nesse limite, a atenuação e a divergência do feixe afetam diretamente a relação sinal-ruído, exigindo alinhamento óptico preciso e um protocolo resiliente para detectar, sincronizar e reconstruir os dados mesmo com o enfraquecimento do sinal.
 </p>
 
+---
+
 ## Imagens do projeto
 
 <div align="center">
-  <img
-    src="images/base_movel_sistema_fso.png"
-    alt="Estrutura do módulo móvel do sistema FSO"
-    width="48%"
-  />
-  <img
-    src="images/base_fixa_sistema_fso.png"
-    alt="Estrutura do módulo fixo do sistema FSO"
-    width="48%"
-  />
-</div>
 
-<p align="center">
-  <em>
-    Figura 1 — Estrutura do módulo móvel do sistema FSO.
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    Figura 2 — Estrutura do módulo fixo do sistema FSO.
-  </em>
-</p>
+<img src="images/base_movel_sistema_fso.png"
+     alt="Estrutura do módulo móvel do sistema FSO"
+     width="42%"
+     height="260">
+
+&nbsp;&nbsp;&nbsp;
+
+<img src="images/base_fixa_sistema_fso.png"
+     alt="Estrutura do módulo fixo do sistema FSO"
+     width="42%"
+     height="260">
+
+<br>
+
+<sub>
+<strong>Figura 1</strong> — Estrutura do módulo MÓVEL do sistema FSO.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<strong>Figura 2</strong> — Estrutura do módulo FIXO do sistema FSO.
+</sub>
+
+</div>
 
 ---
 
@@ -82,25 +87,28 @@ ENG   <img
 ## Project Images
 
 <div align="center">
-  <img
-    src="images/base_movel_sistema_fso.png"
-    alt="Structure of the mobile module of the FSO system"
-    width="48%"
-  />
-  <img
-    src="images/base_fixa_sistema_fso.png"
-    alt="Structure of the fixed module of the FSO system"
-    width="48%"
-  />
-</div>
 
-<p align="center">
-  <em>
-    Figure 1 — Structure of the mobile module of the FSO system.
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    Figure 2 — Structure of the fixed module of the FSO system.
-  </em>
-</p>
+<img src="images/base_movel_sistema_fso.png"
+     alt="Structure of the mobile module of the FSO system"
+     width="42%"
+     height="260">
+
+&nbsp;&nbsp;&nbsp;
+
+<img src="images/base_fixa_sistema_fso.png"
+     alt="Structure of the fixed module of the FSO system"
+     width="42%"
+     height="260">
+
+<br>
+
+<sub>
+<strong>Figure 1</strong> — Structure of the MOBILE module of the FSO system.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<strong>Figure 2</strong> — Structure of the FIXED module of the FSO system.
+</sub>
+
+</div>
 
 ---
 
