@@ -80,23 +80,23 @@ POR  <img
 ## Principais destaques técnicos do alinhamento
 
 <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;O sistema de alinhamento automático movimenta o conjunto óptico nos eixos X e Y por meio de dois motores de passo, controlados pelo Arduino Nano ESP32. A posição é representada em coordenadas cartesianas e convertida em deslocamentos físicos considerando as dimensões dos painéis sensores, a quantidade de passos por milímetro e a posição relativa do fototransistor TIL78. :contentReference[oaicite:0]{index=0}
+&nbsp;&nbsp;&nbsp;&nbsp;O sistema de alinhamento automático movimenta o conjunto óptico nos eixos X e Y por meio de dois motores de passo, controlados pelo Arduino Nano ESP32. A posição é representada em coordenadas cartesianas e convertida em deslocamentos físicos considerando as dimensões dos painéis sensores, a quantidade de passos por milímetro e a posição relativa do fototransistor TIL78. 
 </p>
 
 <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;Antes da busca pelo feixe, o sistema realiza uma calibração automática da iluminação ambiente. As leituras dos sensores são processadas por métodos robustos baseados em mediana e desvio absoluto mediano, permitindo estimar o nível de ruído e definir limiares adaptativos de entrada, saída e intensidade mínima do laser. Dessa forma, o alinhamento permanece funcional mesmo diante de variações de luminosidade. :contentReference[oaicite:1]{index=1}
+&nbsp;&nbsp;&nbsp;&nbsp;Antes da busca pelo feixe, o sistema realiza uma calibração automática da iluminação ambiente. As leituras dos sensores são processadas por métodos robustos baseados em mediana e desvio absoluto mediano, permitindo estimar o nível de ruído e definir limiares adaptativos de entrada, saída e intensidade mínima do laser. Dessa forma, o alinhamento permanece funcional mesmo diante de variações de luminosidade.
 </p>
 
 <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;A localização do enlace combina varreduras em zigue-zague, buscas direcionais e movimentos progressivamente mais precisos. Ao detectar um dos painéis laterais, o algoritmo utiliza a geometria conhecida do módulo para estimar a posição do receptor principal, reduzindo a área de busca. A confirmação final exige múltiplas leituras consecutivas do TIL78, evitando que ruídos ou detecções momentâneas sejam interpretados como alinhamento válido. :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3}
+&nbsp;&nbsp;&nbsp;&nbsp;A localização do enlace combina varreduras em zigue-zague, buscas direcionais e movimentos progressivamente mais precisos. Ao detectar um dos painéis laterais, o algoritmo utiliza a geometria conhecida do módulo para estimar a posição do receptor principal, reduzindo a área de busca. A confirmação final exige múltiplas leituras consecutivas do TIL78, evitando que ruídos ou detecções momentâneas sejam interpretados como alinhamento válido. :contentReference[oaicite:2]{index=2}
 </p>
 
 <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;As rotinas de calibração, alinhamento e retorno à origem são executadas em tarefas dedicadas do FreeRTOS. Variáveis atômicas e mutexes impedem conflitos entre tarefas e protegem o controle simultâneo dos motores. O processo também pode ser iniciado ou acompanhado pela interface web embarcada, que informa em tempo real os estados de calibração e alinhamento. :contentReference[oaicite:4]{index=4} :contentReference[oaicite:5]{index=5}
+&nbsp;&nbsp;&nbsp;&nbsp;As rotinas de calibração, alinhamento e retorno à origem são executadas em tarefas dedicadas do FreeRTOS. Variáveis atômicas e mutexes impedem conflitos entre tarefas e protegem o controle simultâneo dos motores. O processo também pode ser iniciado ou acompanhado pela interface web embarcada, que informa em tempo real os estados de calibração e alinhamento. 
 </p>
 
 <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;Após a operação, o sistema pode retornar automaticamente ao ponto de origem, cancelando tarefas anteriores, encerrando a comunicação óptica e movimentando os dois eixos de forma controlada. Limites físicos, timeouts de segurança e desligamento das bobinas dos motores reduzem o risco de travamentos, sobrecurso ou aquecimento desnecessário. :contentReference[oaicite:6]{index=6}
+&nbsp;&nbsp;&nbsp;&nbsp;Após a operação, o sistema pode retornar automaticamente ao ponto de origem, cancelando tarefas anteriores, encerrando a comunicação óptica e movimentando os dois eixos de forma controlada. Limites físicos, timeouts de segurança e desligamento das bobinas dos motores reduzem o risco de travamentos, sobrecurso ou aquecimento desnecessário.
 </p>
 
 ---------------------------------------------------------------------------------------------
@@ -181,19 +181,19 @@ ENG   <img
 ## Automatic Alignment: Key Technical Features
 
 <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;The automatic alignment system moves the optical assembly along the X and Y axes using two stepper motors controlled by an Arduino Nano ESP32. Positions are represented as Cartesian coordinates and converted into physical displacement according to the sensor-panel dimensions, steps per millimeter, and the relative position of the TIL78 phototransistor. :contentReference[oaicite:7]{index=7}
+&nbsp;&nbsp;&nbsp;&nbsp;The automatic alignment system moves the optical assembly along the X and Y axes using two stepper motors controlled by an Arduino Nano ESP32. Positions are represented as Cartesian coordinates and converted into physical displacement according to the sensor-panel dimensions, steps per millimeter, and the relative position of the TIL78 phototransistor. 
 </p>
 
 <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;Before searching for the laser beam, the system automatically calibrates the ambient-light conditions. Sensor readings are processed using robust statistical methods based on the median and median absolute deviation, allowing the firmware to estimate noise and define adaptive thresholds for beam detection, loss, and minimum intensity. :contentReference[oaicite:8]{index=8}
+&nbsp;&nbsp;&nbsp;&nbsp;Before searching for the laser beam, the system automatically calibrates the ambient-light conditions. Sensor readings are processed using robust statistical methods based on the median and median absolute deviation, allowing the firmware to estimate noise and define adaptive thresholds for beam detection, loss, and minimum intensity. 
 </p>
 
 <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;Beam acquisition combines zigzag scanning, directional searches, and progressively finer movements. When one of the auxiliary sensor panels detects the beam, the algorithm uses the known module geometry to estimate the position of the main receiver and reduce the remaining search area. Final alignment is confirmed through multiple consecutive TIL78 readings, preventing temporary noise from being accepted as a valid link. :contentReference[oaicite:9]{index=9} :contentReference[oaicite:10]{index=10}
+&nbsp;&nbsp;&nbsp;&nbsp;Beam acquisition combines zigzag scanning, directional searches, and progressively finer movements. When one of the auxiliary sensor panels detects the beam, the algorithm uses the known module geometry to estimate the position of the main receiver and reduce the remaining search area. Final alignment is confirmed through multiple consecutive TIL78 readings, preventing temporary noise from being accepted as a valid link.
 </p>
 
 <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;Calibration, alignment, and return-to-origin routines run as dedicated FreeRTOS tasks. Atomic flags and mutexes prevent concurrent operations from interfering with motor control. The process can also be started and monitored through the embedded web interface, which displays the current calibration and alignment status. :contentReference[oaicite:11]{index=11} :contentReference[oaicite:12]{index=12}
+&nbsp;&nbsp;&nbsp;&nbsp;Calibration, alignment, and return-to-origin routines run as dedicated FreeRTOS tasks. Atomic flags and mutexes prevent concurrent operations from interfering with motor control. The process can also be started and monitored through the embedded web interface, which displays the current calibration and alignment status. 
 </p>
 
 <p align="justify">
