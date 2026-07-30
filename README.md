@@ -4,7 +4,7 @@
     width="35"
 />
 
-# <div align="center">Comunicação Óptica via Laser (Sistema FSO)</div>
+# <div align="center">Comunicação Óptica via Laser </div>
 
 <p align="justify">
 &nbsp;&nbsp;&nbsp;&nbsp;Este projeto apresenta um sistema de comunicação óptica bidirecional de médio alcance baseado em <strong>FSO — Free Space Optics</strong>, integrando hardware e software para transmitir dados por meio de um feixe de laser.
@@ -49,10 +49,8 @@
     alt="Bandeira do Reino Unido"
     width="35"
   />
-  Marco Vendramin
-  <img
 
-# <div align="center">Laser-Based Optical Communication (FSO System)</div>
+# <div align="center">Laser-Based Optical Communication </div>
 
 <p align="justify">
 &nbsp;&nbsp;&nbsp;&nbsp;This project presents a medium-range bidirectional optical communication system based on <strong>FSO — Free-Space Optics</strong>, integrating hardware and software to transmit data through a laser beam.
