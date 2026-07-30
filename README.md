@@ -1,4 +1,4 @@
-<img
+POR <img
     src="https://static.todamateria.com.br/upload/ba/nd/bandeira-do-brasil-og.jpg"
     alt="Bandeira do Brasil"
     width="35"
@@ -44,7 +44,7 @@
 
 ---
 
-  <img
+ENG  <img
     src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/330px-Flag_of_the_United_Kingdom_%283-5%29.svg.png"
     alt="Bandeira do Reino Unido"
     width="35"
