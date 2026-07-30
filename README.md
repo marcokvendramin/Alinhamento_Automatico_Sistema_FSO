@@ -26,29 +26,32 @@ POR  <img
 
 ## Imagens do projeto
 
-<div align="center">
-
-<img src="images/base_movel_sistema_fso.png"
-     alt="Estrutura do módulo móvel do sistema FSO"
-     width="42%"
-     height="260">
-
-&nbsp;&nbsp;&nbsp;
-
-<img src="images/base_fixa_sistema_fso.png"
-     alt="Estrutura do módulo fixo do sistema FSO"
-     width="42%"
-     height="260">
-
-<br>
-
-<sub>
-<strong>Figura 1</strong> — Estrutura do módulo MÓVEL do sistema FSO.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<strong>Figura 2</strong> — Estrutura do módulo FIXO do sistema FSO.
-</sub>
-
-</div>
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img
+        src="images/base_movel_sistema_fso.png"
+        alt="Estrutura do módulo móvel do sistema FSO"
+        width="85%"
+      />
+    </td>
+    <td align="center" width="50%">
+      <img
+        src="images/base_fixa_sistema_fso.png"
+        alt="Estrutura do módulo fixo do sistema FSO"
+        width="85%"
+      />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <sub><strong>Figura 1</strong> — Estrutura do módulo MÓVEL do sistema FSO.</sub>
+    </td>
+    <td align="center">
+      <sub><strong>Figura 2</strong> — Estrutura do módulo FIXO do sistema FSO.</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -86,29 +89,32 @@ ENG   <img
 
 ## Project Images
 
-<div align="center">
-
-<img src="images/base_movel_sistema_fso.png"
-     alt="Structure of the mobile module of the FSO system"
-     width="42%"
-     height="260">
-
-&nbsp;&nbsp;&nbsp;
-
-<img src="images/base_fixa_sistema_fso.png"
-     alt="Structure of the fixed module of the FSO system"
-     width="42%"
-     height="260">
-
-<br>
-
-<sub>
-<strong>Figure 1</strong> — Structure of the MOBILE module of the FSO system.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<strong>Figure 2</strong> — Structure of the FIXED module of the FSO system.
-</sub>
-
-</div>
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img
+        src="images/base_movel_sistema_fso.png"
+        alt="Structure of the mobile module of the FSO system"
+        width="85%"
+      />
+    </td>
+    <td align="center" width="50%">
+      <img
+        src="images/base_fixa_sistema_fso.png"
+        alt="Structure of the fixed module of the FSO system"
+        width="85%"
+      />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <sub><strong>Figure 1</strong> — Structure of the MOBILE module of the FSO system.</sub>
+    </td>
+    <td align="center">
+      <sub><strong>Figure 2</strong> — Structure of the FIXED module of the FSO system.</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
