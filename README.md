@@ -24,15 +24,26 @@ POR  <img
 
 ## Imagens do projeto
 
-<!-- Substitua pelos nomes reais das imagens salvas na pasta images -->
+<div align="center">
+  <img
+    src="images/base_movel_sistema_fso.png"
+    alt="Estrutura do módulo móvel do sistema FSO"
+    width="48%"
+  />
+  <img
+    src="images/base_fixa_sistema_fso.png"
+    alt="Estrutura do módulo fixo do sistema FSO"
+    width="48%"
+  />
+</div>
 
-![Estrutura do módulo MÓVEL](images/base_movel_sistema_fso.png)
-
-*Figura 1 — Estrutura do módulo MÓVEL do sistema de comunicação óptica.*
-
-![Estrutura do módulo FIXO](images/base_fixa_sistema_fso.png)
-
-*Figura 1 — Estrutura do módulo FIXO do sistema de comunicação óptica.*
+<p align="center">
+  <em>
+    Figura 1 — Estrutura do módulo móvel do sistema FSO.
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    Figura 2 — Estrutura do módulo fixo do sistema FSO.
+  </em>
+</p>
 
 ---
 
@@ -68,17 +79,28 @@ ENG   <img
 &nbsp;&nbsp;&nbsp;&nbsp;The optical link reached <strong>37.4 meters with no packet loss</strong>. At this range, beam attenuation and divergence directly affect the signal-to-noise ratio, requiring precise optical alignment and a resilient protocol to detect, synchronize, and reconstruct the data even as the signal weakens.
 </p>
 
-## Project images
+## Project Images
 
-<!-- Replace these paths with the actual image names inside the images folder -->
+<div align="center">
+  <img
+    src="images/base_movel_sistema_fso.png"
+    alt="Structure of the mobile module of the FSO system"
+    width="48%"
+  />
+  <img
+    src="images/base_fixa_sistema_fso.png"
+    alt="Structure of the fixed module of the FSO system"
+    width="48%"
+  />
+</div>
 
-![Optical communication system structure](images/sistema-fso-01.jpg)
-
-*Figure 1 — Optical communication system structure.*
-
-![Laser data transmission](images/sistema-fso-02.jpg)
-
-*Figure 2 — Data transmission and reception during operation.*
+<p align="center">
+  <em>
+    Figure 1 — Structure of the mobile module of the FSO system.
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    Figure 2 — Structure of the fixed module of the FSO system.
+  </em>
+</p>
 
 ---
 
