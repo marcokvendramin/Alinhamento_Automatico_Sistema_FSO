@@ -26,11 +26,11 @@ POR  <img
 
 <!-- Substitua pelos nomes reais das imagens salvas na pasta images -->
 
-![Estrutura do módulo MÓVEL](images/sistema-fso-01.jpg)
+![Estrutura do módulo MÓVEL](images/base_movel_modelo_fso.jpg)
 
 *Figura 1 — Estrutura do módulo MÓVEL do sistema de comunicação óptica.*
 
-![Estrutura do módulo FIXO](images/sistema-fso-02.jpg)
+![Estrutura do módulo FIXO](images/base_fixa_modelo_fso.jpg)
 
 *Figura 1 —  do sistema de comunicação óptica.*
 
