@@ -55,14 +55,6 @@ POR  <img
 
 ---
 
-## 🎥 Demonstração prática
-
-> Veja o sistema operando e transmitindo dados em uma demonstração curta.
-
-### [▶ Assistir ao vídeo no YouTube](https://www.youtube.com/watch?v=WR5zdiHbGd0)
-
----
-
 ## Escopo deste repositório
 
 <p align="justify">
@@ -102,6 +94,14 @@ POR  <img
 <p align="justify">
 &nbsp;&nbsp;&nbsp;&nbsp;Após a operação, o sistema pode retornar automaticamente ao ponto de origem, cancelando tarefas anteriores, encerrando a comunicação óptica e movimentando os dois eixos de forma controlada. Limites físicos, timeouts de segurança e desligamento das bobinas dos motores reduzem o risco de travamentos, sobrecurso ou aquecimento desnecessário.
 </p>
+
+## 🎥 Demonstração prática
+
+> Veja o sistema operando e transmitindo dados em uma demonstração curta.
+
+### [▶ Assistir ao vídeo no YouTube](https://www.youtube.com/watch?v=WR5zdiHbGd0)
+
+---
 
 ---------------------------------------------------------------------------------------------
 
@@ -178,14 +178,6 @@ ENG   <img
 &nbsp;&nbsp;&nbsp;&nbsp;The mechanical design and construction of the modules were carried out by <strong>Guilherme Bassinelli</strong>. The complete system was therefore developed collaboratively, combining the communication system implemented by Raphael Geraldine, the mechanical structure developed by Guilherme Bassinelli, and the automatic alignment, electronics, soldering, and system integration performed by me, <strong>Marco Vendramin</strong>.
 </p>
 
-## 🎥 Practical demonstration
-
-> Watch the system operating and transmitting data in a short demonstration.
-
-### [▶ Watch the video on YouTube](https://www.youtube.com/watch?v=WR5zdiHbGd0)
-
----
-
 ## Automatic Alignment: Key Technical Features
 
 <p align="justify">
@@ -207,3 +199,11 @@ ENG   <img
 <p align="justify">
 &nbsp;&nbsp;&nbsp;&nbsp;After operation, the mechanism can automatically return to its origin while canceling previous tasks and shutting down the optical communication channel. Physical limits, safety timeouts, and motor-coil deactivation help prevent overtravel, task lockups, and unnecessary heating. 
 </p>
+
+## 🎥 Practical demonstration
+
+> Watch the system operating and transmitting data in a short demonstration.
+
+### [▶ Watch the video on YouTube](https://www.youtube.com/watch?v=WR5zdiHbGd0)
+
+---
