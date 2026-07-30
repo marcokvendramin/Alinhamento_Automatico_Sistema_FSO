@@ -26,13 +26,13 @@ POR  <img
 
 <!-- Substitua pelos nomes reais das imagens salvas na pasta images -->
 
-![Estrutura do sistema de comunicação óptica](images/sistema-fso-01.jpg)
+![Estrutura do módulo MÓVEL](images/sistema-fso-01.jpg)
 
-*Figura 1 — Estrutura do sistema de comunicação óptica.*
+*Figura 1 — Estrutura do módulo MÓVEL do sistema de comunicação óptica.*
 
-![Transmissão de dados por laser](images/sistema-fso-02.jpg)
+![Estrutura do módulo FIXO](images/sistema-fso-02.jpg)
 
-*Figura 2 — Transmissão e recepção de dados durante a operação.*
+*Figura 1 —  do sistema de comunicação óptica.*
 
 ---
 
