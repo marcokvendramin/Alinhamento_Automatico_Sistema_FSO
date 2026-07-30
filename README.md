@@ -77,6 +77,8 @@ POR  <img
 &nbsp;&nbsp;&nbsp;&nbsp;A implementação contempla as rotinas responsáveis pela detecção do feixe, movimentação dos eixos, calibração dos sensores, correção de posicionamento e manutenção do alinhamento necessário para estabelecer o enlace óptico. Essa parte do sistema foi projetada e implementada por <strong>Marco Vendramin</strong>.
 </p>
 
+---------------------------------------------------------------------------------------------
+
 ENG   <img
     src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/330px-Flag_of_the_United_Kingdom_%283-5%29.svg.png"
     alt="Bandeira do Reino Unido"
