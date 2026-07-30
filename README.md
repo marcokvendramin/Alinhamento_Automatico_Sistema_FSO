@@ -66,15 +66,19 @@ POR  <img
 ## Escopo deste repositório
 
 <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;Este repositório contém especificamente o sistema de <strong>alinhamento automático do enlace óptico</strong> desenvolvido para o projeto FSO, incluindo o controle dos motores, a leitura dos sensores, a calibração do ambiente, a busca pelo feixe de laser e o posicionamento preciso dos módulos transmissor e receptor.
+&nbsp;&nbsp;&nbsp;&nbsp;Este repositório reúne o sistema integrado do projeto FSO, contemplando a comunicação óptica, a interface web, o controle dos microcontroladores, o alinhamento automático, a leitura dos sensores e o acionamento dos motores. O objetivo é apresentar a integração entre as diferentes etapas necessárias para estabelecer e manter o enlace óptico.
 </p>
 
 <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;Embora o sistema físico completo tenha sido desenvolvido em colaboração por uma equipe de três integrantes — abrangendo comunicação óptica, modelagem mecânica 3D, integração de hardware e alinhamento automático —, este código-fonte é dedicado exclusivamente ao pipeline de alinhamento.
+&nbsp;&nbsp;&nbsp;&nbsp;A camada de comunicação de dados foi originalmente projetada e implementada por <strong>Raphael Bassil Costa Geraldine (@Raphael-Geraldine)</strong>. A versão mais recente e específica desse módulo é mantida no repositório dele. Neste projeto, integrei essa implementação ao sistema de alinhamento automático desenvolvido por mim, adequando o funcionamento conjunto entre transmissão, recepção, calibração, movimentação e interface web.
 </p>
 
 <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;A implementação contempla as rotinas responsáveis pela detecção do feixe, movimentação dos eixos, calibração dos sensores, correção de posicionamento e manutenção do alinhamento necessário para estabelecer o enlace óptico. Essa parte do sistema foi projetada e implementada por mim, <strong>Marco Vendramin</strong>.
+&nbsp;&nbsp;&nbsp;&nbsp;Fui responsável pelo desenvolvimento do alinhamento automático, pela integração entre os módulos de software, pela montagem eletrônica e pela soldagem dos componentes do sistema. Essa etapa envolveu o controle dos motores de passo, a leitura dos sensores ópticos, a calibração da luminosidade ambiente, a busca pelo feixe de laser e o posicionamento preciso do receptor.
+</p>
+
+<p align="justify">
+&nbsp;&nbsp;&nbsp;&nbsp;A modelagem e a construção mecânica dos módulos ficaram sob responsabilidade de <strong>Guilherme Bassinelli</strong>. Dessa forma, o sistema completo foi desenvolvido de maneira colaborativa, combinando a comunicação implementada por Raphael Geraldine, a estrutura mecânica desenvolvida por Guilherme Bassinelli e o alinhamento automático, a eletrônica, a soldagem e a integração realizados por mim, <strong>Marco Vendramin</strong>.
 </p>
 
 ## Principais destaques técnicos do alinhamento
@@ -159,15 +163,19 @@ ENG   <img
 ## Repository Scope
 
 <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;This repository specifically contains the <strong>automatic optical-link alignment system</strong> developed for the FSO project, including motor control, sensor readings, environmental calibration, laser-beam search, and precise positioning of the transmitter and receiver modules.
+&nbsp;&nbsp;&nbsp;&nbsp;This repository contains the integrated FSO project system, including optical communication, the embedded web interface, microcontroller control, automatic alignment, sensor readings, and motor actuation. Its purpose is to present the integration of the different stages required to establish and maintain the optical link.
 </p>
 
 <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;Although the complete physical system was developed collaboratively by a three-member team — covering optical communication, 3D mechanical modeling, hardware integration, and automatic alignment — this source code is dedicated exclusively to the alignment pipeline.
+&nbsp;&nbsp;&nbsp;&nbsp;The data communication layer was originally designed and implemented by <strong>Raphael Bassil Costa Geraldine (@Raphael-Geraldine)</strong>. The latest and dedicated version of that module is maintained in his repository. In this project, I integrated his implementation with the automatic alignment system developed by me, adapting the combined operation of transmission, reception, calibration, movement, and the web interface.
 </p>
 
 <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;The implementation includes the routines responsible for beam detection, axis movement, sensor calibration, positioning correction, and maintenance of the alignment required to establish the optical link. This part of the system was designed and implemented by me, <strong>Marco Vendramin</strong>.
+&nbsp;&nbsp;&nbsp;&nbsp;I was responsible for developing the automatic alignment system, integrating the software modules, assembling the electronics, and soldering the system components. This work included stepper-motor control, optical-sensor readings, ambient-light calibration, laser-beam acquisition, and precise receiver positioning.
+</p>
+
+<p align="justify">
+&nbsp;&nbsp;&nbsp;&nbsp;The mechanical design and construction of the modules were carried out by <strong>Guilherme Bassinelli</strong>. The complete system was therefore developed collaboratively, combining the communication system implemented by Raphael Geraldine, the mechanical structure developed by Guilherme Bassinelli, and the automatic alignment, electronics, soldering, and system integration performed by me, <strong>Marco Vendramin</strong>.
 </p>
 
 ## 🎥 Practical demonstration
@@ -197,5 +205,5 @@ ENG   <img
 </p>
 
 <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;After operation, the mechanism can automatically return to its origin while canceling previous tasks and shutting down the optical communication channel. Physical limits, safety timeouts, and motor-coil deactivation help prevent overtravel, task lockups, and unnecessary heating. :contentReference[oaicite:13]{index=13}
+&nbsp;&nbsp;&nbsp;&nbsp;After operation, the mechanism can automatically return to its origin while canceling previous tasks and shutting down the optical communication channel. Physical limits, safety timeouts, and motor-coil deactivation help prevent overtravel, task lockups, and unnecessary heating. 
 </p>
