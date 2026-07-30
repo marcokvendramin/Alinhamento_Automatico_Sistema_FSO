@@ -63,6 +63,12 @@ POR  <img
 
 ---
 
+Escopo deste repositório
+
+Este repositório contém especificamente o sistema de alinhamento automático do enlace óptico desenvolvido para o projeto FSO, incluindo controle dos motores, leitura dos sensores, calibração, busca do feixe de laser e posicionamento dos módulos transmissor e receptor.
+
+Embora o sistema físico completo tenha sido desenvolvido em colaboração por uma equipe de três integrantes — abrangendo comunicação óptica, modelagem mecânica 3D e integração de hardware —, este código-fonte é dedicado exclusivamente ao pipeline de alinhamento automático, projetado e implementado por mim (Marco Vendramin).
+
 ENG   <img
     src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/330px-Flag_of_the_United_Kingdom_%283-5%29.svg.png"
     alt="Bandeira do Reino Unido"
@@ -117,6 +123,11 @@ ENG   <img
 </table>
 
 ---
+Repository Scope
+
+This repository specifically contains the automatic optical-link alignment system developed for the FSO project, including motor control, sensor readings, calibration, laser-beam search, and positioning of the transmitter and receiver modules.
+
+Although the complete physical system was developed collaboratively by a three-member team—covering optical communication, 3D mechanical modeling, and hardware integration—this source code is dedicated exclusively to the automatic alignment pipeline, designed and implemented by me (Marco Vendramin).
 
 ## 🎥 Practical demonstration
 
